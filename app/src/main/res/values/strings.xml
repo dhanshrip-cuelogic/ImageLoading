@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ImageLoading</string>
+    <string name="sampleimage">sampleImage</string>
 </resources>

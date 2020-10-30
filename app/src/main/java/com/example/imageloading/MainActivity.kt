@@ -13,13 +13,25 @@ class MainActivity : AppCompatActivity() {
         val recyclerView = findViewById(R.id.recyclerView) as RecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
 
-        val imageList = ArrayList<String>()
+        val imageList = ArrayList<ModelClass>()
 
         //adding some dummy data to the list
-        imageList.add("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg")
-        imageList.add("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg")
-        imageList.add("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg")
-        imageList.add("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg")
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+        imageList.add(ModelClass("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg","nature","sample description"))
+
+
 
 
         val adapter = CustomAdapter(imageList)
